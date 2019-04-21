@@ -18,7 +18,7 @@ public class WebController {
 	public String index(ModelMap map){
 		logger.info("这里是controller");
 		map.put("title", "hello world");
-		return "index v0.1";//不要在前面加上 / linux下面会出错
+		return "index v0.1 --v0.6 -master update";//不要在前面加上 / linux下面会出错
 	}
 	
 	@RequestMapping("/error")
